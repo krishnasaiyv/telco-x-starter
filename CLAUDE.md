@@ -50,5 +50,18 @@ data. RAG status always carries a text label, never colour alone.
 🔴 Human Decision · 🟡 AI Assist · 🟢 AI Automate. Note: operational RAG status on screen
 (network/service health) is a *different* thing from this decision framework — same colours, different meaning.
 
+## Acceptance Criteria 
+1 All ten addresses can be searched or selected
+2 Unknown address shows a helpful error
+3 Result page shows the right address + map pin
+4 Active shows subscriber, network & service
+5 Non-active shows valid product choices
+6 Detail and provider views open correctly
+7 Provider names and count match the data
+8 Back navigation keeps the selected address
+9 Works on laptop and mobile, clearly labelled
+10 Demo one active + one non-active journey
+
+
 ## Role skills
 Role operating manuals live in `.claude/skills/` (ba, pm, dev, ux, tester). Use the one for your seat.
